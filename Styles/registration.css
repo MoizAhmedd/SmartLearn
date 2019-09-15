@@ -1,0 +1,17 @@
+@font-face {
+    font-family: 'Larsseit';
+    src: url(/Styles/Larsseit/Larsseit.ttf) format('truetype'), 
+        url(/Styles/Larsseit/Larsseit-Light.ttf) format('truetype'),
+        url(/Styles/Larsseit/Larsseit-Bold.ttf) format('truetype'),
+        url(/Styles/Larsseit/Larsseit-Medium.ttf) format('truetype')
+}
+body {
+    font-family: 'Larsseit-Light';
+}
+
+.bg-light {
+    background-color: #fff !important;
+ }
+ 
+ .navbar {
+     padding: 20px 150px;

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Log In</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="./Styles/styles.css" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Source+Serif+Pro&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Muli|Source+Serif+Pro&display=swap" rel="stylesheet">
+    <link href="./Styles/Larsseit">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </head>
+
+  <body id="login-body">
+      <nav class="navbar navbar-light bg-light" id="nav">
+          <a class="navbar-brand" href="#">
+            <img src="./src/logo.png" width=250px height=auto alt="smartlearn-logo">
+          </a>
+        </nav>
+
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-md-6" id="illustrationlogin">
+              <img src="./src/illustration.png" class="imglogin">
+            </div>
+            <div class="col-md-6" id="login-div">
+              <h1 class="welcome">Welcome back!</h1>
+                <form>
+                    <div class="form-group login-form">
+                      <label><b>I'm a:  &nbsp;  </b></label>
+                      <div class="custom-control custom-radio custom-control-inline">
+                          <input type="radio" id="customRadioInline1" name="customRadioInline1" class="custom-control-input">
+                          <label class="custom-control-label" for="customRadioInline1">student</label>
+                        </div>
+                        <div class="custom-control custom-radio custom-control-inline">
+                          <input type="radio" id="customRadioInline2" name="customRadioInline1" class="custom-control-input">
+                          <label class="custom-control-label" for="customRadioInline2">teacher</label>
+                        </div>
+
+                      
+                    </div>
+                    <div class="form-group">
+                      <label for="uname"><b>Username</b></label>
+                      <input type="text" class="form-control" placeholder="Eg. jordanjones10" name="uname" required>
+                    </div>
+                    <div class="form-group">
+                      <label for="psw"><b>Password</b></label>
+                      <input type="password" class="form-control" placeholder="Enter password" name="psw" required>
+                    </div>
+                    <div class="form-group">
+                        <div class="form-group form-check" id="remember">
+                            <input type="checkbox" class="form-check-input" checked="checked" name="remember">
+                            <label class="form-check-label" for="remember">Remember me</label>
+                        </div>
+                        <div class="psw"> <a href="#" id="psw-link">Forgot password? </a></div>
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-lg" id="login-form-btn">Log in</button>
+                  </form>
+            </div>
+          </div>
+        </div>
+  </body>
+</html>

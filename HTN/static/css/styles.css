@@ -1,0 +1,397 @@
+@font-face {
+    font-family: 'Larsseit';
+    src: url(/Styles/Larsseit/Larsseit.ttf) format('truetype'), 
+        url(/Styles/Larsseit/Larsseit-Light.ttf) format('truetype'),
+        url(/Styles/Larsseit/Larsseit-Bold.ttf) format('truetype'),
+        url(/Styles/Larsseit/Larsseit-Medium.ttf) format('truetype')
+}
+body {
+    font-family: 'Larsseit-Light', sans-serif;
+}
+
+#containerindex{
+    margin: 80px auto;
+
+}
+.btn-outline-dark {
+    border-color: rgb(53, 190, 188);
+    
+    border-width: 1.5px;
+    color: #239B99;
+    font-weight: strong;
+}
+.btn-outline-dark:hover {
+    background-color: #239B99;
+    color: white;
+    border-color: #239B99;
+}
+
+#videoElement{
+ width:500px;
+ height:375px;
+ background-color: #666;   
+}
+
+.bg-light {
+   background-color: #fff !important;
+}
+
+.navbar {
+    padding: 20px 150px;
+}
+
+#loginbtn {
+    margin-right: 30px;
+}
+
+button {
+    border-radius: 30px !important;
+    padding: 10px 30px !important;
+}
+
+.signup {
+    background-color: #C7F0EF !important;
+    color: #239B99 !important;
+    border: none !important;
+
+}
+
+.signup:hover {
+    background-color: #B6D7D6 !important;
+}
+
+.title {
+    margin: 50px auto;
+
+}
+
+h1 {
+    font-family: 'Source Serif Pro', serif;
+    font-size: 33px;
+    font-weight: 900;
+}
+
+h2 {
+    font-family: 'Larsseit-Light', sans-serif;
+    font-size: 23px;
+    margin: 50px auto;
+}
+
+#left {
+    width: 200px;
+    text-align: right;
+    margin-left: 130px;
+}
+#right {
+    margin-left: 15px;
+    margin-bottom: 80px;
+}
+
+#container {
+    margin-top: 90px;
+    
+}
+
+
+
+.setupbox {
+    box-shadow: 0px 5px 25px #bebebe;
+    max-width: 800px;
+    margin: auto;   
+    border-radius: 30px;
+    
+
+}
+.cg, .card-header {
+    max-width: 800px;
+    margin: auto;
+    border: none !important;
+    margin: 10px;
+
+   
+
+}
+.card {
+    border: none !important;
+    border-radius: 30px;
+    margin: 15px;
+
+}
+
+.card-header {
+    margin-top: 50px;
+    text-align: center;
+    font-size: 30px;
+    padding: 30px;
+    padding-top: 15px !important;
+    background-color: transparent !important;
+    padding-bottom: 0px !important;
+
+
+}
+
+.cardh1 {
+    margin-bottom: 0px;
+    padding-bottom: 0px !important;
+    margin-top: 20px;
+}
+
+.form-check {
+    display: block !important;
+    margin: 9px;
+    margin-left: 15px;
+    align-items: left !important;
+    text-align: left !important;
+
+}
+
+.form-check-input {
+    width: 14px !important;
+    align-items: left;
+  
+
+}
+
+.card-title {
+    color: #239B99 !important;
+    border: none !important;
+    border-radius: 30px;
+    padding: 10px;
+    text-align: left;
+    padding-top: 13px;
+    font-family: 'Larsseit-Medium', sans-serif;
+}
+
+.bodytext {
+    font-size: 15px;
+    text-align: center;
+}
+
+.setup {
+    margin: 30px;
+    background-color: #C7F0EF !important;
+    color: #239B99 !important;
+    border: none !important;
+}
+.setup:hover {
+    background-color: #B6D7D6 !important;
+
+}
+
+.psw {
+    text-align: right;
+    float: right;
+    width: 45%;
+    display: inline-block;
+}
+
+#remember {
+    float: left;
+    margin: 0px;
+    width: 45%;
+    padding-top: 0px !important;
+
+}
+
+.login-form {
+    margin-top: 40px;
+}
+
+#login-form-btn {
+    background-color: #C7F0EF !important;
+    color: #239B99 !important;
+    border: none !important;
+    margin-top: 20px;
+}
+
+#login-form-btn:hover {
+    background-color: #B6D7D6 !important;
+}
+
+#login-body {
+    font-family: 'Larsseit-Light', sans-serif;
+}
+
+#login-div {
+    max-width: 500px;
+    /* display: flex; */
+    margin-right: 50px;
+    margin-top: 40px;
+  
+}
+
+#psw-link {
+    color: #239B99
+}
+
+.imglogin {
+    width: 400px;
+    align-content: right;
+    display: flex;
+    float: right;
+    margin-top: 100px;
+    margin-right: 45px;
+}
+
+.illustrationlogin {
+    align-items: right;
+   
+}
+.form-check {
+   margin-bottom: 5px;
+}
+
+.welcome {
+    margin-top: 0px;
+}
+
+.col-md-6 {
+    margin-top: 0px;
+    margin-left: 0px;
+}
+
+#email {
+    padding: 6px 12px;
+    border-radius: 5px;
+    border-color: #bebebe;
+}
+
+p {
+    margin: 0;
+}
+
+.signup {
+    margin: 20px auto;
+}
+
+.entirewidth {
+    max-width: 1100px;
+    display: block;
+    margin: auto;
+}
+
+.headerdash {
+    display: block;
+    height: 90px;
+}
+
+#ch {
+    text-align: left !important;
+    margin-bottom: 30px;
+    padding-left: 0px;
+}
+#cg {
+    max-width: 1000px;
+    display: inline-block;
+    margin: 20px auto;
+    width: 48%;
+
+}
+
+
+
+#cb, #cb2, #cb3, #cb4{
+    border-width: 1px;
+    height: 144px;
+    width: 450px;
+    border-radius: 30px;
+    transition: 0.3s;
+}
+
+
+#cb {
+    background-color: #C7F0EF !important;
+    color: #239B99 !important;
+}
+#cb:hover {
+    background-color : #B6D7D6 !important;
+    cursor: pointer;
+}
+
+#cb2 {
+    background-color: #FFDBB1 !important;
+    color: #DB7B0B !important;
+}
+#cb2:hover {
+    background-color: rgb(241, 198, 145) !important;
+    cursor: pointer;
+
+}
+
+#cb3 {
+    background-color: #FFDADA !important;
+    color: #BB1B1B !important;
+}
+#cb3:hover {
+    background-color: rgb(219, 161, 161) !important;
+    cursor: pointer;
+}
+
+#cb4 {
+    background-color: #F9F9F9 !important;
+    color: #3d3d3d !important;
+}
+#cb4:hover {
+    background-color: rgb(206, 206, 206) !important;
+}
+
+
+.coursename {
+    padding: 20px 20px 0px 20px;
+
+}
+
+h3 {
+    font-size: 14px !important;
+}
+
+.details {
+    padding: 0px 20px;
+
+}
+.form-group {
+    margin-bottom: 10px;
+}
+
+#instructor-name {
+    font-family: 'Larsseit-Medium', sans-serif";
+}
+
+#course-registration-title {
+    margin: 30px 0px;
+}
+#courseadd {
+    width: 700px;
+}
+
+#course-registration-div {
+    max-width: 300px;
+}
+
+.coursecode {
+    margin: 10px 0px 40px 0px;
+}
+
+.numstudents {
+    background-color: #C7F0EF;
+    color: #239B99;
+    max-width: 280px;
+    padding: 10px 20px;
+    border-radius: 30px;
+    margin: 20px 0px 12px 0px;
+}
+.backbtn {
+    display: inline-block;
+    height: 64px;
+
+
+}
+
+#backcol {
+    width: 15%;
+}
+
+#videocol {
+    width: 85%;
+    float: left;
+}

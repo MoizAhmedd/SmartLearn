@@ -1,0 +1,10 @@
+<h1>Student Dashboard</h1>
+
+<p>My Courses</p>
+<a href = "{% url 'all_courses' student_name%}">Enroll in courses</a>
+
+<div>
+    {% for course in course_codes%}
+        <a href = "{% url 'student-live' course%}">Watch {{course}} Lecture</a>
+    {% endfor %}
+</div>

@@ -1,0 +1,43 @@
+<h1>{{course_code}}</h1>
+<hr>
+<form>
+    <input type = "text" name = "youtube" placeholder = "Youtube">
+    <input type = "text" name = "survey" placeholder = "Survey">
+    <button type="submit">Add</button>
+</form>
+<a href = "{% url 'live-stream' course_code%}">Go Live</a>
+
+<br>
+<br>
+
+<h2>Add Questions</h2>
+<hr>
+
+<form>
+
+        <input type = "text" name = "question" placeholder = "Question"/>
+        
+        <div>
+            <input type="radio" name="correct" id="question-1-answers-A" checked value = "A"  />
+            <input type = "text" name = "ans-1" placeholder = "answer 1">
+        </div>
+        
+        <div>
+            <input type="radio" name="correct" id="question-1-answers-B" value="B" />
+            <input type = "text" name = "ans-2" placeholder = "answer 2">
+        </div>
+        
+        <div>
+            <input type="radio" name="correct" id="question-1-answers-C" value="C" />
+            <input type = "text" name = "ans-3" placeholder = "answer 3">
+        </div>
+        
+        <div>
+            <input type="radio" name="correct" id="question-1-answers-D" value="D" />
+            <input type = "text" name = "ans-4" placeholder = "answer 4">
+        </div>
+
+
+        <button type="submit">Add</button>
+    
+    </form>

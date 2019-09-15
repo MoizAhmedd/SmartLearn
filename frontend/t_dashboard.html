@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>SmartLearn</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="./Styles/styles.css" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Source+Serif+Pro&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Muli|Source+Serif+Pro&display=swap" rel="stylesheet">
+    <link href="./Styles/Larsseit">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </head>
+
+  <body>
+        <nav class="navbar navbar-light bg-light" id="nav">
+            <a class="navbar-brand" href="#">
+                <img src="./src/logo.png" width=250px height=auto alt="smartlearn-logo">
+            </a>
+            <button type="button" class="btn btn-outline-dark" id="loginbtn" href="/">LOG OUT</button>
+
+        </nav>
+    <div class="entirewidth">
+        <div class="card-header" id="ch">
+            <h1 id="ch">Classroom Dashboard</h1>
+        </div>
+
+        <a href="./t_lecture.html">
+            <div class="card-group" id="cg" >
+                <div class="card" id="course">
+                    <div class="card-body" id="cb">
+                        <h1 class="coursename">MATH1: Addition</h1>
+                        <h3 class="details">36 GRADE 1 STUDENTS</h3>
+                    </div>
+                </div>
+            </div>
+        </a>
+        
+        <a href="./t_lecture.html">
+            <div class="card-group" id="cg">
+                <div class="card" id="course2">
+                    <div class="card-body" id="cb2">
+                        <h1 class="coursename">ENGL7: Shakespeare</h1>
+                        <h3 class="details">20 GRADE 7 STUDENTS</h3>
+
+                    </div>
+                </div>
+            </div>
+        </a>
+
+        <a href="./t_lecture.html">
+            <div class="card-group" id="cg">
+                <div class="card" id="course2">
+                    <div class="card-body" id="cb3">
+                        <h1 class="coursename">BIOL412: Advanced Cel...</h1>
+                        <h3 class="details">40 UNIVERSITY STUDENTS</h3>
+
+                    </div>
+                </div>
+            </div>
+        </a>
+
+        <a href="./courseAddition.html">
+            <div class="card-group" id="cg">
+                <div class="card" id="course2">
+                    <div class="card-body" id="cb4">
+                        <h1 class="coursename"> +  &nbsp;Add a new course</h1>
+
+                    </div>
+                </div>
+            </div>
+        </a>
+    </div>
+    
+</html>
+
+
+
+<!--
+<a href = "{% url 'create' teacher_name %}">Add Course</a>
+
+{% for course in courses %}
+<div>
+    {% for key,value in course.items%}
+    <h1 style = "text-transform: capitalize;">{{key}}: {{value}}</h1>
+    {% endfor %}
+    <a href = "{% url 'course-details' course.code %}">Course Details</a>
+</div>
+{% endfor %}
+-->

@@ -1,0 +1,11 @@
+<h1>All Courses</h1>
+
+{% for course in courses %}
+<div>
+    {% for key,value in course.items%}
+    <h1 style = "text-transform: capitalize;">{{key}}: {{value}}</h1>
+    {% endfor %}
+</div>
+{% endfor %}
+<a href = "{% url 'enrol_in_course' student_name%}">Enrol in a Course</a>
+<a href = "{% url 's-dashboard' student_name%}">Back to my courses</a>
